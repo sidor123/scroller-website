@@ -1,0 +1,473 @@
+html {
+  background: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4 {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 4vh;
+  margin-top: 0px;
+  padding-top: 0px;
+  left: 3vw;
+  text-align: left;
+  width: 100%;
+}
+
+body {
+  scroll-behavior: smooth;
+  border: 0px;
+}
+
+span {
+	color: white;
+}
+
+strong {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 6vh;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 33px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+a {
+  color: white;
+}
+
+.section {
+  text-align: center;
+  font-size: 3em;
+  color: black;
+  background-color: white;
+}
+
+#section1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+  font-family: 'Cormorant SC', serif;
+  color: white;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+  object-fit: cover;
+}
+
+#upper-text {
+  opacity: 1;
+  z-index: 2;
+}
+
+#slide1 {
+  background-color: #FF8500;
+}
+
+#slide2 {
+  background-color: #086CA2;
+}
+
+#slide3 {
+  background-color: #22884F;
+}
+
+#section3 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('images/2.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section4 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/ada.jfif');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section5 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/plank.jpeg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section6 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/assemb.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section7 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/sc.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section8 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/ac.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section9 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/fortran.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section10 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('images/algol.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section11 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/lisp.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section12 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/cobol.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section13 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/basic.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section14 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/pascal.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section15 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/smtl.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section16 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/c.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section17 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/sql.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section18 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/ada2.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section19 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/cplus.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section20 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/objc.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section21 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/perl.jpeg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section22 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/xask.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section23 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/py.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section24 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/vbasic.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section25 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/ruby.jpeg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section26 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/java.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section27 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/php.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section28 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/js.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section29 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/csharp.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section30 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/groovy.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section31 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/scala.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section32 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/golang.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section33 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/swift.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+#section34 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/ballerina.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+}
+
+@media (max-width: 1500px) {
+  p {
+    line-height: 4.5vh;
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 51px;
+  }
+  h4 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1200px) {
+  p {
+    line-height: 4.3vh;
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 900px) {
+  p {
+    line-height: 4.2vh;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 0.68em;
+  }
+}
+
+@media (max-width: 700px) {
+  p {
+    line-height: 3.7vh;
+    font-size: 21px; 
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 0.55em;
+  }
+}
